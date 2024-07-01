@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="HTML, CSS and Javascript Sample">
+    <link rel="shortcut icon" href="download.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Make Todo List</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="container nav">
+            <h1 class="logo">Website</h1>
+            <ul class="nav-items">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="">Todoo</a></li>
+                <li class="nav-item"><a href="">Sign-up</a></li>
+            </ul>
+        </nav>
+
+        <div class="head-line">
+            <h2 id="main-heading">Manage &nbsp Your &nbsp Task</h2>
+            <button class="btn btn-headline btn-header">Learn More</button>
+        </div>
+    </header>
+
+    <div class="todoo-section container">
+        <h2>What's Your Plan For Today?</h2>
+        <form class="form-todoo">
+            <input type="text" name="" id="" placeholder="Add Todo">
+            <input type="submit" value="Add Todo" class="btn">
+        </form>
+        <ul class="todo-list">
+            <li class="first-todoo">
+                <!-- Todoo Form !!! -->
+                <span class="text">Do this Do That</span>
+                <div class="toddoButtons">
+                    <button class="todoo-btn done">Done</button>
+                    <button class="todoo-btn remove">Remove</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <section class="section-signup container">
+        <h2>Sign UP</h2>
+        <form action="" class="sign-upForm">
+
+            <div class="form-group">
+                <label for="userName">Enter Your UserName</label>
+                <input type="text" name="userName" id="userName">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Enter Your Password</label>
+                <input type="password" name="password" id="password">
+            </div>
+
+            <div class="form-group">
+                <label for="conform-password">Conform Password</label>
+                <input type="password" name="conform-password" id="conform-password">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Enter You Contact Number</label>
+                <input type="number" name="phone" id="phone">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Enter Your Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="form-group">
+                <label for="about">About Your Self</label>
+                <textarea name="about" id="about" cols="30" rows="10"></textarea>                
+            </div>
+
+        </form>
+        <input type="submit" value="Sign-up" class="btn sign-upBtn">
+    </section>
+</body>
+</html>
